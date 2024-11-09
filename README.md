@@ -6,7 +6,7 @@ Mock anything with a Magic Object, no more `TypeError: Cannot read properties of
 
 ```ts
 import { assert } from '@std/assert';
-import { any, isAny } from 'mock-anything';
+import { any, isAny } from '@typed-sigterm/any';
 
 // Create a Any.
 const thing = any();
