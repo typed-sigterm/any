@@ -1,0 +1,16 @@
+{
+  "name": "@typed-sigterm/any",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./src/mod.ts",
+  "lint": {
+    "exclude": ["**"]
+  },
+  "tasks": {
+    "commitlint": "commitlint --edit",
+    "lint": "eslint ."
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.7"
+  }
+}
