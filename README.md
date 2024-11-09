@@ -2,6 +2,20 @@
 
 Mock anything, no more `TypeError: Cannot read properties of undefined`s.
 
+## Installation
+
+If you are using Deno:
+
+```sh
+deno add -D jsr:@typed-sigterm/any
+```
+
+If you are using Node.js:
+
+```sh
+npx jsr add -D @typed-sigterm/any
+```
+
 ## Usage
 
 ```ts

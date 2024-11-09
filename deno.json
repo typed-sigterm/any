@@ -1,10 +1,17 @@
 {
   "name": "@typed-sigterm/any",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "exports": "./src/mod.ts",
   "lint": {
     "exclude": ["**"]
+  },
+  "publish": {
+    "include": [
+      "LICENSE",
+      "README.md",
+      "src/**/*"
+    ]
   },
   "tasks": {
     "commitlint": "commitlint --edit",
