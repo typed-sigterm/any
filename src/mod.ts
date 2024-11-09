@@ -1,6 +1,6 @@
 /**
  * Equivalent to `any`.
- * 
+ *
  * Tip: Sometimes this can help avoid linting errors.
  */
 export type Any = any;
