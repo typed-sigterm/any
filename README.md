@@ -1,20 +1,6 @@
 # Any
 
-Mock anything, no more `TypeError: Cannot read properties of undefined`s.
-
-## Installation
-
-If you are using Deno:
-
-```sh
-deno add -D jsr:@typed-sigterm/any
-```
-
-If you are using Node.js:
-
-```sh
-npx jsr add -D @typed-sigterm/any
-```
+Mock anything with a Magic Object, no more `TypeError: Cannot read properties of undefined`s.
 
 ## Usage
 
@@ -41,5 +27,6 @@ assert(isAny(thing.foo));
 delete thing.foo;
 assert(isAny(thing.foo));
 
-// ... more examples can be found in the `__tests__` directory.
+// ... more examples can be found in the test file:
+// https://github.com/typed-sigterm/any/blob/latest/__tests__/mod.spec.ts
 ```
