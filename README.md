@@ -30,3 +30,7 @@ assert(isAny(thing.foo));
 // ... more examples can be found in the test file:
 // https://github.com/typed-sigterm/any/blob/latest/__tests__/mod.spec.ts
 ```
+
+## Compatibility
+
+This module depends on `Proxy` support, see [Can I use](https://caniuse.com/proxy) for compatibility information.

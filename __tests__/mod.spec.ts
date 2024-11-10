@@ -26,11 +26,7 @@ const SpecialValues: any[] = [
   undefined,
 ];
 
-const Keys: any[] = [];
-for (const value of SpecialValues) {
-  if (value instanceof Object) // skip values that can't be converted to keys
-    Keys.push(value);
-}
+const Keys = SpecialValues.filter(v => v instanceof Object); // skip values that can't be converted to keys
 
 Deno.test('Any should be recognized by isAny', () => {
   assert(isAny(any()));
