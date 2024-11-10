@@ -1,6 +1,6 @@
 {
   "name": "@typed-sigterm/any",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "exports": "./src/mod.ts",
   "lint": {
@@ -14,7 +14,7 @@
     ]
   },
   "tasks": {
-    "commitlint": "commitlint --edit",
+    "commitlint": "commitlint",
     "lint": "eslint ."
   },
   "imports": {
