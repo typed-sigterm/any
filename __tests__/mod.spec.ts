@@ -52,7 +52,7 @@ Deno.test('Accessing property of Any should return a new Any', () => {
     delete descriptor?.value; // value is manually tested
     assertEquals(descriptor, {
       configurable: true,
-      enumerable: true,
+      enumerable: false,
       writable: true,
     });
     assert(isAny(member2));

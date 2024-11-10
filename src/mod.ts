@@ -33,12 +33,12 @@ export function any(): Any {
 
     getOwnPropertyDescriptor: () => ({
       configurable: true,
-      enumerable: true,
+      enumerable: false, // Align with `Object.ownKeys`
       value: any(),
       writable: true,
     }),
 
-    getPrototypeOf: () => Function,
+    getPrototypeOf: () => Object,
     has: () => true,
     isExtensible: () => true,
     ownKeys: () => [],
