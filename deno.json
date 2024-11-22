@@ -14,7 +14,6 @@
     ]
   },
   "tasks": {
-    "commitlint": "commitlint",
     "lint": "eslint ."
   },
   "imports": {
